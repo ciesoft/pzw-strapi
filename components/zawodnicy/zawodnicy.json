@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_zawodnicy_zawodnicies",
+  "info": {
+    "name": "Zawodnicy",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger"
+    },
+    "fish": {
+      "type": "integer"
+    },
+    "arena": {
+      "type": "integer"
+    }
+  }
+}
