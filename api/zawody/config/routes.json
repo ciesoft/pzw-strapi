@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zawodies",
+      "handler": "zawody.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zawodies/count",
+      "handler": "zawody.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zawodies/:id",
+      "handler": "zawody.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/zawodies",
+      "handler": "zawody.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zawodies/:id",
+      "handler": "zawody.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zawodies/:id",
+      "handler": "zawody.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

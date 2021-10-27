@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zawody",
+  "info": {
+    "name": "zawody"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DataZawodow": {
+      "type": "date"
+    },
+    "Zawodnicy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "zawodnicy.zawodnicy"
+    }
+  }
+}
