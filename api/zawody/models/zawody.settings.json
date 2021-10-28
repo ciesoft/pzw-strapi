@@ -19,6 +19,13 @@
       "type": "component",
       "repeatable": true,
       "component": "zawodnicy.zawodnicy"
+    },
+    "typ": {
+      "type": "enumeration",
+      "enum": [
+        "splawik",
+        "grunt"
+      ]
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_zawodnicy_zawodnicies",
   "info": {
     "name": "Zawodnicy",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,10 +14,13 @@
       "type": "biginteger"
     },
     "fish": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "arena": {
-      "type": "integer"
+      "type": "string"
+    },
+    "stanowisko": {
+      "type": "string"
     }
   }
 }
